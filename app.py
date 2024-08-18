@@ -5,6 +5,7 @@ import streamlit as st
 car_data = pd.read_csv ('vehicles_us.csv')
 
 print(car_data)
+st.header("Autos en EEUU")
 
 hist_button = st.button('Construir Histograma')
 scatter_plot_button = st.button('Construir grafico de dispersion')
